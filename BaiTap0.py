@@ -24,4 +24,3 @@ print("Các SNT <= {}".format(n))
 for i in range(2, n + 1):
       if LaSNT(i):
             print("%5d" % i, end=" ")
-        
