@@ -9,4 +9,4 @@ B3: Sử dụng module tự định nghĩa
 - Tạo file mã nguồn python mới (file để test)
 - Thêm dòng khai báo: 
     from <package_name>.<module_name> import <function_name>
-                                      import * # all
+                                      import * 
