@@ -1,0 +1,12 @@
+### Tạo module tự định nghĩa và sử dụng
+
+B1: Tạo 1 thư mục (package) đặt tên tùy ý, chẳng hạn 'my_lib' 
+Trong thư mục này phải tạo file có tên '__init__.py' (file này không cần có mã nguồn)
+
+B2: Trong thư mục 'my_lib' tạo file mã nguồn (module), chẳng hạn 'functions.py' chứa các thành phần tự cài đặt (Vd: functions,...)
+
+B3: Sử dụng module tự định nghĩa
+- Tạo file mã nguồn python mới (file để test)
+- Thêm dòng khai báo: 
+    from <package_name>.<module_name> import <function_name>
+                                      import * # all
