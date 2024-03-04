@@ -1,0 +1,23 @@
+Lamda là:
+- Một hàm không có tên
+- Chỉ có một dòng lệnh
+- Cú pháp: lamda arguments : expression
+
+Vd: Tính tổng S = (1 -> n) i^2
+Cách 1:
+s = 0
+for i in range(n + 1):
+ s += i * i
+
+Cách 2:
+def Square(x):
+ return  x**2
+s = 0
+for i in range(n + 1):
+ s += Square(i)
+
+Cách 3: định nghĩa hàm Lamda
+s = 0
+for i in range(n + 1):
+ x = lamda i : i ** 2
+ s += x(i)

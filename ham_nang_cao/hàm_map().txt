@@ -1,0 +1,6 @@
+Hàm map()
+- Áp dụng lời gọi hàm lên 1 danh sách các đối số
+- Cú pháp: map(func_name:iteration)
+
+Vd: Cho dãy a = [1,2,3,4]
+Y/cầu: tạo dãy b chứa các ptử là bình phương của ptử t/ứng dãy a
