@@ -1,0 +1,66 @@
+Cú pháp: for <biến chạy> in <danh sách>:
+	<lệnh>
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Lệnh for với kiểu danh sách (list)
+
+	myList = ['Hello', 3.45, False]
+for i in myList:
+ print(i)
+
+=>> 'Hello'
+     3.45
+     False
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Lệnh for với kiểu Chuỗi
+
+	st = 'Khánh Hòa'
+for ch in st:
+ print(ch)
+
+=>>
+ K
+ h
+ a
+ n
+ h
+ H
+ o 
+ a
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Lệnh for với kiểu từ điển (dictionary)
+
+	personal_info = {
+			'Name' : 'Hoàng',
+			'Age' : 17,
+			'Height' : 1.70,
+			'Weight': 68
+			}
+*** Lặp một biến chạy:
+ for i in personal_info.items():
+	print(i)
+*** Lặp 2 biến chạy:
+ for k,v in personal_info.items():
+	print(k,v)
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Lệnh for với hàm range()
+
+Ví dụ 1: In ra các số nguyên liên tiếp từ 0 -> n-1
+for i in range(n):
+ print(i)
+
+Ví dụ 2: Xét các số trong khoảng giá trị:
+ for i in range(start, end, step)
+trong đó:
+	start: giá trị đầu
+	end: giá trị cuối
+	step: bước nhảy (default = 1)
+
+### CÓ THỂ SỬ DỤNG LỆNH LẶP FOR, WHILE LỒNG NHAU ###
