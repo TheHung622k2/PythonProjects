@@ -1,0 +1,4 @@
+Viết CT có các hàm sau:
+a) Hàm ktra 1 số tự nhiên có phải SNT hay ko.
+b) Hàm in ra các số NT <= n. Sử dụng hàm ở câu a.
+c) Hàm tìm số NT nhỏ nhất > n
