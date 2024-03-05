@@ -1,0 +1,6 @@
+Hàm filter()
+- Lọc các phần tử trong danh sách thỏa đk được định nghĩa bởi hàm.
+- Cú pháp:  filter(func_name, iteration)
+
+Vd: Cho ds = [1,2,3,4,5,6]
+Lọc ra các phần tử chẵn: ds_chan = list(filter(lamda x : x % 2 == 0, ds))
