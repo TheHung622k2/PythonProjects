@@ -5,9 +5,9 @@ Cú pháp: for <biến chạy> in <danh sách>:
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Lệnh for với kiểu danh sách (list)
 
-	myList = ['Hello', 3.45, False]
+myList = ['Hello', 3.45, False]
 for i in myList:
- print(i)
+print(i)
 
 =>> 'Hello'
      3.45
@@ -17,18 +17,18 @@ for i in myList:
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Lệnh for với kiểu Chuỗi
 
-	st = 'Khánh Hòa'
+st = 'Khánh Hòa'
 for ch in st:
  print(ch)
 
 =>>
  K
  h
- a
+ á
  n
  h
  H
- o 
+ ò 
  a
 
 
@@ -41,12 +41,27 @@ Lệnh for với kiểu từ điển (dictionary)
 			'Height' : 1.70,
 			'Weight': 68
 			}
+			
 *** Lặp một biến chạy:
  for i in personal_info.items():
 	print(i)
+
+=> trả về dưới dạng một tuple gồm cặp key-value
+('Name', 'Hoàng')
+('Age', 17)
+('Height', 1.7)
+('Weight', 68)
+
+
 *** Lặp 2 biến chạy:
  for k,v in personal_info.items():
 	print(k,v)
+
+=> trực tiếp trích xuất cả key và value
+Name Hoàng
+Age 17
+Height 1.7
+Weight 68
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

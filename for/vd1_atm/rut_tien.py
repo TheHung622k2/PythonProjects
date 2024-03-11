@@ -20,7 +20,7 @@ print("{} tờ 100 + {} tờ 20 + {} tờ 5".format(soTo100, soTo20, soTo5))
 
 print()
 
-# câu b
+# câu b: sử dụng vét cạn
 m = m1 # lấy lại số tiền lúc đầu
 soCach = 0
 for soTo100 in range(m // 100 + 1):
