@@ -9,8 +9,8 @@ print(b)
 # định nghĩa hàm bình phương
 def Square(x):
     return x**2
-b = map(Square,a) 
-b = list(b) # trả về Object nên phải ép kiếu
+b = map(Square,a) # áp dụng hàm Square() cho mỗi phần tử trong danh sách a, tạo ra một đối tượng map chứa các kết quả sau khi hàm Square() được áp dụng
+b = list(b) # do trả về một object nên phải ép kiếu để chuyển thành list
 print(b)
 
 # cách 3
