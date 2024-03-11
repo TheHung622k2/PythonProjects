@@ -54,7 +54,7 @@ for i in range(len(point_list)):
         dist = Point.distance(point_list[i], point_list[j])
         if dist < min_distance:
             min_distance = dist
-            closest_pair = (point_list[i], point_list[j])
+            closest_pair = point_list[i], point_list[j]
 
 # In ra cặp điểm gần nhau nhất
 print("c) Cặp điểm gần nhau nhất là:")
