@@ -1,0 +1,2 @@
+Thiết lập tính bao đóng (encapsulation)
+Python che dấu truy xuất trực tiếp đến thành viên lớp bằng cách thêm 2 ký tự gạch dưới trước tên thành viên
